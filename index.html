@@ -14,15 +14,57 @@
 </head>
 <body>
     <header>
-        <div class = "header-logo">
-            <img
-            src="assets/Banner WEBP.webp"
-            alt="banner-logo"
-            />
-        </div>
-
+            <img src="assets/Banner WEBP.webp" alt="banner-logo" class="logo">
     </header>
      
-    
+    <main>
+        <section class="agendamento">
+            <h2>Agende seu horário!</h2>
+            <p>Digite seu nome e telefone:</p>
+            
+            <form id="agendamento-form">
+                <input type="text" id="nome" placeholder="Nome" required>
+                <input type="tel" id="telefone" placeholder="Telefone" required>
+                <button type="submit" id="agendar-button">Agendar</button>
+            </form>
+        </section>
+
+        <section class="servicos">
+            <h2>Serviços:</h2>
+            <div class="servicos-container">
+                <div class="servico">
+                    
+                    <p>Estética Facial</p>
+                    <p>R$100,00</p>
+                </div>
+                <div class="servico">
+                    <p>Depilação</p>
+                    <p>R$100,00</p>
+                </div>
+                <div class="servico">
+                    <p>Cabeleireiro</p>
+                    <p>R$100,00</p>
+                </div>
+                <div class="servico">
+                    <p>Manicure</p>
+                    <p>R$100,00</p>
+                </div>
+                <div class="servico">
+                    <p>Padologia</p>
+                    <p>R$100,00</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>
+            <a href="https://wa.me/5521995816494" target="_blank">WhatsApp: 21 99581-6494</a>
+            <a href="https://www.instagram.com/anarosa.pem" target="_blank">@anarosa.pem</a>
+            Rua João Rêgo, 279, Rio de Janeiro, RJ
+        </p>
+
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
